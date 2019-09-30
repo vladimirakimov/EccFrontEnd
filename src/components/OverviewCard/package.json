@@ -1,0 +1,6 @@
+{
+  "name": "overviewcard",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./OverviewCard.js"
+}

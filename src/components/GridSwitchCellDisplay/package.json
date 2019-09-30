@@ -1,0 +1,6 @@
+{
+  "name": "GridSwitchCellDisplay",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./GridSwitchCellDisplay.js"
+}

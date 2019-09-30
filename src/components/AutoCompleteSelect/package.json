@@ -1,0 +1,6 @@
+{
+  "name": "autocompleteselect",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AutoCompleteSelect.js"
+}

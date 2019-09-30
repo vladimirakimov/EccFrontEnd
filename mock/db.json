@@ -1,0 +1,662 @@
+{
+  "icons": [
+    {
+      "name": "Hoi",
+      "path": ""
+    },
+    {
+      "name": "Hoi2",
+      "path": ""
+    }
+  ],
+  "operations": [
+    {
+      "id": 1,
+      "name": "Unload packed",
+      "description": "Unload packed",
+      "icon": "",
+      "tags": []
+    },
+    {
+      "id": 2,
+      "name": "Load packed",
+      "description": "Load packed",
+      "icon": "",
+      "tags": []
+    },
+    {
+      "id": 3,
+      "name": "Unload into silo",
+      "description": "Unload into silo",
+      "icon": "",
+      "tags": []
+    },
+    {
+      "id": 4,
+      "name": "Unload",
+      "description": "Unload",
+      "icon": "",
+      "tags": []
+    },
+    {
+      "id": 5,
+      "name": "Load",
+      "description": "Load",
+      "icon": "",
+      "tags": []
+    },
+    {
+      "id": 6,
+      "name": "Unload into container",
+      "description": "Unload into container",
+      "icon": "",
+      "tags": []
+    },
+    {
+      "name": "Test",
+      "description": "Test",
+      "tags": [],
+      "id": 7
+    }
+  ],
+  "businessUnits": [
+    {
+      "id": 1,
+      "name": "Chemicals"
+    },
+    {
+      "id": 2,
+      "name": "BusinessUnit 2"
+    },
+    {
+      "id": 3,
+      "name": "BusinessUnit 3"
+    },
+    {
+      "id": 4,
+      "name": "BusinessUnit 4"
+    },
+    {
+      "id": 5,
+      "name": "BusinessUnit 5"
+    },
+    {
+      "name": "Food & Feed",
+      "id": 6
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "value": "BKAL33+KBT T",
+      "label": "PLATO Chemicals Test",
+      "businessUnit": "BusinessUnit 5"
+    },
+    {
+      "id": 2,
+      "label": "PLATO Warehouse and Commodities",
+      "value": "RBTO38+JTT",
+      "businessUnit": "BusinessUnit 3"
+    },
+    {
+      "id": 3,
+      "value": "BKAL45+VKS",
+      "label": "PLATO Soft Commodities",
+      "businessUnit": "BusinessUnit 1"
+    },
+    {
+      "value": "Test",
+      "label": "Test",
+      "businessUnit": "Chemicals",
+      "id": 4
+    }
+  ],
+  "sites": [
+    {
+      "label": "LB1227",
+      "value": "LB1227"
+    },
+    {
+      "label": "WVN136",
+      "value": "WVN136"
+    },
+    {
+      "label": "LUITHAGEN",
+      "value": "LUITHAGEN"
+    },
+    {
+      "label": "LB5642",
+      "value": "LB5642"
+    },
+    {
+      "label": "WVN555",
+      "value": "WVN555"
+    },
+    {
+      "label": "LUITEN",
+      "value": "LUITEN"
+    }
+  ],
+  "operationalDepartements": [
+    {
+      "label": "Operational departement 1",
+      "value": "Operational departement 1"
+    },
+    {
+      "label": "Operational departement 2",
+      "value": "Operational departement 2"
+    },
+    {
+      "label": "Operational departement 3",
+      "value": "Operational departement 3"
+    },
+    {
+      "label": "Operational departement 4",
+      "value": "Operational departement 4"
+    }
+  ],
+  "zones": [
+    {
+      "label": "Zone 1",
+      "value": "Zone 1"
+    },
+    {
+      "label": "Zone 2",
+      "value": "Zone 2"
+    },
+    {
+      "label": "Zone 3",
+      "value": "Zone 3"
+    },
+    {
+      "label": "Zone 4",
+      "value": "Zone 4"
+    }
+  ],
+  "planning": [
+    {
+      "label": "Planning 1",
+      "value": "Planning 1"
+    },
+    {
+      "label": "Planning 2",
+      "value": "Planning 2"
+    },
+    {
+      "label": "Planning 3",
+      "value": "Planning 3"
+    },
+    {
+      "label": "Planning 4",
+      "value": "Planning 4"
+    }
+  ],
+  "customers": [
+    {
+      "label": "Customer 1",
+      "value": "Customer 1"
+    },
+    {
+      "label": "Customer 2",
+      "value": "Customer 2"
+    },
+    {
+      "label": "Customer 3",
+      "value": "Customer 3"
+    },
+    {
+      "label": "Customer 4",
+      "value": "Customer 4"
+    }
+  ],
+  "productionSites": [
+    {
+      "label": "Production site 1",
+      "value": "Production site 1"
+    },
+    {
+      "label": "Production site 2",
+      "value": "Production site 2"
+    },
+    {
+      "label": "Production site 3",
+      "value": "Production site 3"
+    },
+    {
+      "label": "Production site 4",
+      "value": "Production site 4"
+    }
+  ],
+  "transportTypes": [
+    {
+      "label": "Transport type 1",
+      "value": "Transport type 1"
+    },
+    {
+      "label": "Transport type 2",
+      "value": "Transport type 2"
+    },
+    {
+      "label": "Transport type 3",
+      "value": "Transport type 3"
+    },
+    {
+      "label": "Transport type 4",
+      "value": "Transport type 4"
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Team namer",
+      "imageUrl": "http://www.total.be/cs/Satellite?blobcol=urldata&blobkey=id&blobtable=MungoBlobs&blobwhere=1285614885997&ssbinary=true",
+      "sources": [
+        "PLATO Chemicals",
+        "PLATO Warehouse and Commodities",
+        "PLATO Soft Commodities"
+      ],
+      "sites": [
+        "LB1227",
+        "WVN136",
+        "LUITHAGEN",
+        "LUITEN"
+      ],
+      "operations": [
+        "Unload packed",
+        "Unload into silo",
+        "Unload"
+      ],
+      "operationalDepartements": "",
+      "zones": [
+        "Zone 1",
+        "Zone 2",
+        "Zone 3",
+        "Zone 4"
+      ],
+      "plannings": [
+        "Planning 1",
+        "Planning 2",
+        "Planning 3",
+        "Planning 4"
+      ],
+      "customers": [
+        "Customer 1",
+        "Customer 2"
+      ],
+      "productionSites": [
+        "Production site 2"
+      ],
+      "transportTypes": [
+        "Transport type 1"
+      ],
+      "driverWaits": "All",
+      "numberOfOperators": 4,
+      "planning": [
+        "Planning 2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Team demo 1dqsfsdfdf",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Corona_Extra.svg/1200px-Corona_Extra.svg.png",
+      "sources": [
+        "PLATO Soft Commodities"
+      ],
+      "sites": "",
+      "operations": [
+        "Unload into silo",
+        "Unload"
+      ],
+      "operationalDepartements": [
+        "Operational departement 2"
+      ],
+      "zones": [
+        "Zone 1",
+        "Zone 2",
+        "Zone 3"
+      ],
+      "plannings": [
+        "Planning 1",
+        "Planning 2",
+        "Planning 3",
+        "Planning 4"
+      ],
+      "customers": [
+        "Customer 1",
+        "Customer 2"
+      ],
+      "productionSites": [
+        "Production site 2"
+      ],
+      "transportTypes": [
+        "Transport type 1"
+      ],
+      "driverWaits": "All",
+      "numberOfOperators": 3,
+      "planning": [
+        "Planning 2"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Team name 3sf",
+      "imageUrl": null,
+      "sources": [
+        "PLATO Chemicals",
+        "PLATO Warehouse and Commodities"
+      ],
+      "sites": [
+        "LB1227",
+        "WVN136",
+        "LUITHAGEN"
+      ],
+      "operations": [
+        "Unload packed",
+        "Load packed",
+        "Unload into silo"
+      ],
+      "operationalDepartements": [
+        "operational departement 1",
+        "operational departement 2",
+        "operational departement 3"
+      ],
+      "zones": [
+        "Zone 1",
+        "Zone 2",
+        "Zone 3"
+      ],
+      "plannings": [
+        "Planning 1",
+        "Planning 2",
+        "Planning 3",
+        "Planning 4"
+      ],
+      "customers": [
+        "Customer 1",
+        "Customer 2"
+      ],
+      "productionSites": [
+        "ProductionSite 1"
+      ],
+      "transportTypes": [
+        "Transport type 1"
+      ],
+      "driverWaits": "All",
+      "numberOfOperators": 2
+    },
+    {
+      "id": 4,
+      "name": "Team ",
+      "imageUrl": "data:image/png;base64,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",
+      "sources": [
+        "PLATO Chemicals",
+        "PLATO Warehouse and Commodities",
+        "PLATO Soft Commodities"
+      ],
+      "sites": [
+        "LB1227",
+        "WVN136",
+        "LUITHAGEN"
+      ],
+      "operations": [
+        "Unload packed",
+        "Load packed",
+        "Unload into silo"
+      ],
+      "memberCount": 2
+    },
+    {
+      "id": 5,
+      "name": "Team elmer",
+      "imageUrl": null,
+      "sources": [
+        "PLATO Chemicals",
+        "PLATO Warehouse and Commodities",
+        "PLATO Soft Commodities"
+      ],
+      "sites": [
+        "LB1227",
+        "WVN136"
+      ],
+      "operations": [
+        "Unload packed",
+        "Load packed",
+        "Unload into silo",
+        "Unload into container"
+      ],
+      "operationalDepartements": [
+        "Operational departement 3"
+      ],
+      "zones": [
+        "Zone 1",
+        "Zone 2",
+        "Zone 3"
+      ],
+      "plannings": [
+        "Planning 1",
+        "Planning 2",
+        "Planning 3",
+        "Planning 4"
+      ],
+      "customers": [
+        "Customer 1",
+        "Customer 2"
+      ],
+      "productionSites": [
+        "Production site 2"
+      ],
+      "transportTypes": [
+        "Transport type 1",
+        "Transport type 3"
+      ],
+      "driverWaits": "All",
+      "numberOfOperators": 2,
+      "planning": [
+        "Planning 2"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Team name 6",
+      "imageUrl": null,
+      "sources": [
+        "PLATO Chemicals",
+        "PLATO Warehouse and Commodities",
+        "PLATO Soft Commodities"
+      ],
+      "sites": [
+        "LB1227",
+        "WVN136",
+        "LUITHAGEN"
+      ],
+      "operations": [
+        "Unload packed",
+        "Load packed",
+        "Unload into silo",
+        "Load"
+      ],
+      "numberOfOperators": 2
+    },
+    {
+      "id": 8,
+      "name": "Team name 8",
+      "imageUrl": null,
+      "sources": [
+        "PLATO Chemicals",
+        "PLATO Warehouse and Commodities",
+        "PLATO Soft Commodities"
+      ],
+      "sites": [
+        "LB1227",
+        "WVN136",
+        "LUITHAGEN"
+      ],
+      "operations": [
+        "Unload packed",
+        "Load packed",
+        "Unload into silo"
+      ],
+      "operationalDepartements": [
+        "operational departement 1",
+        "operational departement 2",
+        "operational departement 3"
+      ],
+      "zones": [
+        "Zone 1",
+        "Zone 2",
+        "Zone 3"
+      ],
+      "plannings": [
+        "Planning 1",
+        "Planning 2",
+        "Planning 3",
+        "Planning 4"
+      ],
+      "customers": [
+        "Customer 1",
+        "Customer 2"
+      ],
+      "productionSites": [
+        "ProductionSite 1"
+      ],
+      "transportTypes": [
+        "Transport type 1"
+      ],
+      "DriverWaits": "All",
+      "numberOfOperators": 2
+    },
+    {
+      "id": "86955994ec0ee3a6cb369bb34cbb62a1",
+      "name": "testing add updated",
+      "imageUrl": "https://dynamicassets.azureedge.net/uploads/store/logo/57b29bf6985bc.png",
+      "sources": [
+        "PLATO Chemicals",
+        "PLATO Soft Commodities"
+      ],
+      "sites": [
+        "LB1227"
+      ],
+      "operations": [
+        "Unload packed"
+      ],
+      "numberOfOperators": 0
+    },
+    {
+      "id": "2303dc6bcd0b780b324e494d1c4ac20d",
+      "name": "sdf",
+      "imageUrl": null,
+      "sources": [
+        "PLATO Soft Commodities"
+      ],
+      "sites": [
+        "WVN136"
+      ],
+      "operations": [
+        "Load packed"
+      ],
+      "numberOfOperators": 0
+    },
+    {
+      "id": "051a58c98ed25851d5b6b0972e213360",
+      "name": "test",
+      "imageUrl": null,
+      "sources": null,
+      "sites": null,
+      "operations": [
+        "Load packed"
+      ],
+      "numberOfOperators": 0
+    },
+    {
+      "id": "b6410208ec720e77203bdc33b59a602a",
+      "name": "demo 2",
+      "imageUrl": null,
+      "sources": [
+        "PLATO Warehouse and Commodities"
+      ],
+      "sites": null,
+      "operations": [
+        "Load packed",
+        "Unload"
+      ],
+      "numberOfOperators": 0
+    },
+    {
+      "id": "584354e7545b6e7b61d7b37616160d1c",
+      "name": "testing",
+      "imageUrl": null,
+      "sources": null,
+      "sites": null,
+      "operations": null,
+      "numberOfOperators": 0
+    },
+    {
+      "id": "142acd31de85c402e03ad8ca34035387",
+      "name": "demo purposes",
+      "imageUrl": null,
+      "sources": null,
+      "sites": null,
+      "operations": null,
+      "numberOfOperators": 0
+    }
+  ],
+  "flow": [
+    {
+      "id": "createrepository",
+      "Meta": {
+        "ID": "e5b66572-ca0e-4be4-b201-08a1e2aa2c1a",
+        "Status": "Started",
+        "Name": "CreateRepository",
+        "NavigationSettings": {
+          "PreviousHidden": false,
+          "NextLabel": "Finish"
+        }
+      },
+      "Data": {
+        "Meta": {
+          "Title": "Summary"
+        },
+        "Data": [
+          {
+            "Meta": {
+              "Name": "RepositoryInfo",
+              "Label": "Repository Information",
+              "Type": "Card"
+            },
+            "Data": [
+              {
+                "Meta": {
+                  "Name": "ApplicationNameLabel",
+                  "Label": "Application Name",
+                  "Type": "Label"
+                }
+              },
+              {
+                "Meta": {
+                  "Name": "RepositoryTypeLabel",
+                  "Label": "Repository Type",
+                  "Type": "Label"
+                }
+              },
+              {
+                "Meta": {
+                  "Name": "RepositoryTypeLabel1",
+                  "Label": "Random input",
+                  "Type": "TextField",
+                  "Value": "Random value"
+                }
+              },
+              {
+                "Meta": {
+                  "Name": "RepositoryTypeLabel3",
+                  "Label": "Random input",
+                  "Type": "TextField"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "expansionpanel",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ExpansionPanel.js"
+}

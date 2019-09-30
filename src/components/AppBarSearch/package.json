@@ -1,0 +1,6 @@
+{
+  "name": "AppBarSearch",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AppBarSearch.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "GridHeader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./GridHeader.js"
+}

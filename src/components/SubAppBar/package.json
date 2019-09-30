@@ -1,0 +1,6 @@
+{
+  "name": "subappbar",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SubAppBar.js"
+}

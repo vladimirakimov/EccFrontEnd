@@ -1,0 +1,6 @@
+{
+  "name": "AppBarUserMenu",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AppBarUserMenu.js"
+}

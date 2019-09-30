@@ -1,0 +1,6 @@
+{
+  "name": "AppBarSettings",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AppBarSettings.js"
+}
